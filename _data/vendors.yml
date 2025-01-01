@@ -113,7 +113,7 @@
   footnotes: '[^dbt-price]: $20K/year for 5 users minimum for Enterprise edition'
   percent_increase: 233%
   pricing_note: Quote
-  sso_pricing: $333 per u/m
+  sso_pricing: $333 per u/m[^dbt-price]
   updated_at: 2023-04-11
 
 - name: Directus Cloud
@@ -212,8 +212,8 @@
 
 - name: Hakuna
   url: https://www.hakuna.ch
-  base_pricing: 69 CHF for 5 u/m
-  sso_pricing: 139 CHF for 5 u/m
+  base_pricing: 69 CHF for 5 u/m[^hakuna]
+  sso_pricing: 139 CHF for 5 u/m[^hakuna]
   percent_increase: 200%
   pricing_source: https://www.hakuna.ch/preise
   footnotes: "[^hakuna]: Non-linear pricing; price per user decreases with more users"
@@ -221,7 +221,7 @@
 
 - name: Hotjar
   url: https://www.hotjar.com
-  base_pricing: $32.00 per /m
+  base_pricing: $32.00 per /m[^hotjar]
   sso_pricing: $171.00 per /m
   percent_increase: 434%
   pricing_source: https://www.hotjar.com/pricing
@@ -230,7 +230,7 @@
 
 - name: Hubspot Marketing
   url: https://www.hubspot.com
-  base_pricing: $40 per month
+  base_pricing: $40 per month[^hubspotmarketing]
   sso_pricing: $3,600 per month
   percent_increase: 8900%
   pricing_source: https://www.hubspot.com/pricing/marketing/starter
@@ -367,7 +367,7 @@
 - name: PandaDoc
   url: https://pandadoc.com
   base_pricing: $19 per u/m
-  sso_pricing: Call Us
+  sso_pricing: Call Us[^pandadoc]
   footnotes: "[^pandadoc]: SSO locked behind Enterprise Call Us"
   percent_increase: ???
   pricing_source: https://pandadoc.com/pricing/
