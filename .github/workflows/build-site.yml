@@ -19,9 +19,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install yamale
 
-      - name: Run validator
+      - name: Run YAML validator
         run: |
           python _build/validator.py
+
+      - name: Run Footnote validator
+        run: |
+          python _build/footnote_validator.py _data/vendors.yml
 
   build:
     runs-on: ubuntu-24.04

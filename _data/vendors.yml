@@ -1,7 +1,7 @@
 - name: Airtable
   url: https://airtable.com
   base_pricing: $10 per u/m
-  sso_pricing: $60 per u/m
+  sso_pricing: $60 per u/m[^airtable-price]
   percent_increase: 500%
   pricing_source: https://airtable.com/pricing
   pricing_note: Quote
