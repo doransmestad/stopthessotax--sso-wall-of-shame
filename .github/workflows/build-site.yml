@@ -1,7 +1,6 @@
 name: Build Jekyll site
-on:
- push:
-   branches: ["custom-action-workflow"]
+on: [push, pull_request]
+
 permissions:
   contents: read
   #pages: write
